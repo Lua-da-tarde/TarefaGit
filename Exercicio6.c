@@ -20,7 +20,6 @@ int main()
     areaq = b * b;
     arearet = a * b;
 
-    printf("\n\nA área do triângulo é igual a %2.f \n A área do círculo é igual a %2.f \n A área do trapézio é igual a %2.f \n
-     A área do quadrado é igual a %2.f \n A área do retângulo é igual a %2.f \n",areat,areac,areatrap,areaq,arearet);
+    printf("\n\nA área do triângulo é igual a %2.f \n A área do círculo é igual a %2.f \n A área do trapézio é igual a %2.f \n A área do quadrado é igual a %2.f \n A área do retângulo é igual a %2.f \n",areat,areac,areatrap,areaq,arearet);
     return 0;
 }
