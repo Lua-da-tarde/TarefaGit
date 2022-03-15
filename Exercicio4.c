@@ -12,7 +12,7 @@ int main()
     scanf("%d",&func);
     printf("\nQuantas horas você trabalhou esse mês? ");
     scanf("%d",&hr);
-    print("\nQuanto você recebe por hora: ");
+    printf("\nQuanto você recebe por hora: ");
     scanf("%f",&recebe);
 
     salario = recebe*hr;
