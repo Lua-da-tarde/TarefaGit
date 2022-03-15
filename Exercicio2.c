@@ -10,8 +10,8 @@ int main()
     printf("Insira o valor do raio: ");
     scanf("%d",&raio);
 
-    area = 3,14159 * (raio*raio);
+    area = 3.14159 * (raio*raio);
 
-    printf("O valor da área do círculo é %4.d",area);
+    printf("\nO valor da área do círculo é %4.d\n\n",area);
     return 0;
 }
