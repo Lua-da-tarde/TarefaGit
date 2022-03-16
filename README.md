@@ -1,2 +1,2 @@
-# TarefaDAD1
+# TarefaGit
 Exercícios de revisão em C.
