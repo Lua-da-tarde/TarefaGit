@@ -8,7 +8,7 @@ class Program {
             Console.WriteLine("Insira o valor do raio: ");
             raio = Double.Parse(Console.ReadLine());
 
-            area = 3.14159 * (raio * raio);
+            area = Math.PI * (raio * raio);
 
             Console.WriteLine("\r\nO valor da área do círculo é " + Math.Round(area, 2).ToString());
         }
