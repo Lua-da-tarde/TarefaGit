@@ -1,17 +1,15 @@
-﻿using System;
+using System;
 
-namespace Exercicio2emCSharp
-{
-    class Program
-    {
-        static void Main(string[] args)
+class Program {
+  public static void Main (string[] args)
         {
-            Double raio = 0.0;
-            Double area = 0.0;
-            Console.Write("Raio : ");
+            double raio = 0.0, area = 0.0;
+
+            Console.WriteLine("Insira o valor do raio: ");
             raio = Double.Parse(Console.ReadLine());
-            area = Math.PI * Math.Pow(raio, 2);
-            Console.WriteLine("Area : {0:F4}", area);
+
+            area = 3.14159 * (raio * raio);
+
+            Console.WriteLine("\r\nO valor da área do círculo é " + Math.Round(area, 2).ToString());
         }
-    }
 }
