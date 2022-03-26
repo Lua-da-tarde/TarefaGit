@@ -1,21 +1,21 @@
-﻿using System;
+using System;
 
-namespace Exercicio3emCSharp
-{
-    class Program
-    {
-        static void Main(string[] args)
+class Program {
+  public static void Main (string[] args)
         {
-            Int32 a, b, c, d;
-            Console.Write("A : ");
-            a = Int32.Parse(Console.ReadLine());
-            Console.Write("B : ");
-            b = Int32.Parse(Console.ReadLine());
-            Console.Write("C : ");
-            c = Int32.Parse(Console.ReadLine());
-            Console.Write("D : ");
-            d = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("DIFERENÇA = {0}", (a * b) - (c * d));
+            int a, b, c, d, dif;
+
+            Console.WriteLine("Insira um valor: ");
+            a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Insira um valor: ");
+            b = int.Parse(Console.ReadLine());
+            Console.WriteLine("Insira um valor: ");
+            c = int.Parse(Console.ReadLine());
+            Console.WriteLine("Insira um valor: ");
+            d = int.Parse(Console.ReadLine());
+
+            dif = (a * b) - (c * d);
+            Console.WriteLine("\r\nA diferenca eh igual a " + dif);
+
         }
-    }
 }
