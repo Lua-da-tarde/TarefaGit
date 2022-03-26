@@ -1,17 +1,17 @@
-﻿using System;
+using System;
 
-namespace Exercicio1emCSharp
-{
-    class Program
-    {
-        static void Main(string[] args)
+class Program {
+  public static void Main (string[] args)
         {
-            Int32 v1, v2;
-            Console.Write("Valor 1: ");
-            v1 = Int32.Parse(Console.ReadLine());
-            Console.Write("Valor 2: ");
-            v2 = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("Soma = {0}", (v1 + v2));
+            int valor1, valor2, soma;
+
+            Console.WriteLine("Escreva um valor: ");
+            valor1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Escreva outro valor: ");
+            valor2 = int.Parse(Console.ReadLine());
+
+            soma = valor1 + valor2;
+            Console.WriteLine("A soma dos dois valores eh igual a " + soma);
+            
         }
     }
-}
